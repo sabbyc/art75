@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 
 body {
   margin: 30px auto;
@@ -7,7 +7,7 @@ body {
   line-height: 1.5;
   padding: 30px 20px;
   text-align: center;
-  background-color: #ffe6e6;
+  background-color: #aec9d6;
   font-family: 'Inconsolata', monospace;
 }
 
