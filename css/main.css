@@ -7,40 +7,51 @@ body {
   line-height: 1.5;
   padding: 30px 20px;
   text-align: center;
-  background-color: #aec9d6;
+  background-image: linear-gradient(#ebd6ff, #ecb6cc, #274460);
+  background-size: cover;
   font-family: 'Inconsolata', monospace;
 }
 
-h1 {
-  padding: 20px 0px 10px 0px;
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
 }
 
-/* Centers images */
-img {
+#photos {
+  opacity: .88;
+}
+
+#photos img {
+  width: 30%;
+  float: left;
   display: block;
+  margin: 2px;
+}
+
+ul {
+  list-style: none;
   margin: 0px auto;
+  padding: 0px;
+  display: block;
+  max-width: 780px;
   text-align: center;
 }
 
-/* mouse over link */
-a:hover {
-  color: lightblue;
+#photos {
+  width: 100%;
 }
 
-.portfolio-item {
-  border-radius: 25px;
-  margin-top: 60px;
-  padding: 40px;
-  background-color: white;
-}
-
-.statement-item {
-  border-radius: 25px;
-  margin-top: 60px;
-  padding: 40px;
-  background-color: white;
-}
-
-.profile-image {
-  align: left;
+#photo-gallery {
+  width: 100%;
+  position: absolute;
+  transition: .5s ease;
+  background-color: black;
 }
